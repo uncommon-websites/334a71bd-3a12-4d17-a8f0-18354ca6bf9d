@@ -7,16 +7,56 @@
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
-	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
+	import CustomerCardHero from "$lib/components/layout/hero-sections/CustomerCardHero.svelte";
 </script>
 
-<Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="/sample.png"
-	generating
+<CustomerCardHero
+  title="Where restaurant service runs itself"
+  subtitle="Trusted by leading QSR brands to power faster kitchens, lower labor costs, and deliver flawless guest experience—no delays, no mistakes."
+  centered={true}
+  customers={[
+    {
+      name: 'Emily Carter',
+      position: 'CEO, Luna Bowls',
+      imageSrc: '/generated/image-confident-qsr-franchise-executive-a-woma.webp',
+      quote: 'We went fully automated and cut order errors to zero.'
+    },
+    {
+      name: 'Rajesh Singh',
+      position: 'Area Manager, MetroFast Foods',
+      imageSrc: '/generated/image-smiling-area-manager-a-south-asian-man-e.webp',
+      quote: 'Our locations run faster and more profitably than ever.'
+    },
+    {
+      name: 'Tom Jensen',
+      position: 'Senior Tech Lead, Urban Spoon',
+      imageSrc: '/generated/image-senior-tech-lead-a-caucasian-man-dressed.webp',
+      quote: 'Seeing the kitchen run itself is a game changer.'
+    },
+    {
+      name: 'Gabriela Ruiz',
+      position: 'Operations Director, QuickLeaf Eats',
+      imageSrc: '/generated/image-operations-director-a-latina-woman-in-a-.webp',
+      quote: 'Labor shortages don’t slow us down anymore.'
+    },
+    {
+      name: 'Alicia Brown',
+      position: 'Staff Lead, Basil Street',
+      imageSrc: '/generated/image-young-black-woman-as-a-restaurant-staff-.webp',
+      quote: 'Prep is easy—my team can focus on people, not assembly.'
+    }
+  ]}
 />
-<LogoScroller label="" generating />
+
+<LogoScroller
+	label="Trusted by industry leaders"
+	logoUrls={[
+		'https://logo.clearbit.com/mcdonalds.com',
+		'https://logo.clearbit.com/chipotle.com',
+		'https://logo.clearbit.com/subway.com',
+		'https://logo.clearbit.com/dominos.com'
+	]}
+/>
 
 <Summary
 	generating
