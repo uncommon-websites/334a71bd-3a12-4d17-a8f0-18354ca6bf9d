@@ -37,137 +37,168 @@ Please update features according to the company's product offering. Do not remov
 	const {
 		title = "Simple, transparent pricing",
 		subtitle = "Choose the plan that works best for your needs",
-		tierNames = ["Starter", "Pro", "Enterprise"],
+		tierNames = ["Starter", "Growth", "Enterprise"],
 		features = [
-			{
-				name: "Projects",
-				tiers: {
-					Starter: "5",
-					Pro: "Unlimited",
-					Enterprise: "Unlimited"
-				}
-			},
-			{
-				name: "Team members",
-				tiers: {
-					Starter: "1",
-					Pro: "10",
-					Enterprise: "Unlimited"
-				}
-			},
-			{
-				name: "Storage",
-				tiers: {
-					Starter: "1GB",
-					Pro: "10GB",
-					Enterprise: "Unlimited"
-				}
-			},
-			{
-				name: "API access",
-				tiers: {
-					Starter: false,
-					Pro: true,
-					Enterprise: true
-				}
-			},
-			{
-				name: "Custom domains",
-				tiers: {
-					Starter: false,
-					Pro: true,
-					Enterprise: true
-				}
-			},
-			{
-				name: "Analytics",
-				tiers: {
-					Starter: "Basic",
-					Pro: "Advanced",
-					Enterprise: "Advanced"
-				}
-			},
-			{
-				name: "Support response time",
-				tiers: {
-					Starter: "24 hours",
-					Pro: "4 hours",
-					Enterprise: "1 hour"
-				}
-			},
-			{
-				name: "Dedicated account manager",
-				tiers: {
-					Starter: false,
-					Pro: false,
-					Enterprise: true
-				}
-			},
-			{
-				name: "SLA",
-				tiers: {
-					Starter: false,
-					Pro: false,
-					Enterprise: "99.9%"
-				}
+		{
+			name: "FUSICON bowl assembly automation",
+			tiers: {
+				Starter: "1 unit",
+				Growth: "Up to 3 units",
+				Enterprise: "Multi-unit/full site"
 			}
+		},
+		{
+			name: "MOSAIC restaurant OS core features",
+			tiers: {
+				Starter: true,
+				Growth: true,
+				Enterprise: true
+			}
+		},
+		{
+			name: "AI-powered labor & shift co-pilot",
+			tiers: {
+				Starter: true,
+				Growth: true,
+				Enterprise: true
+			}
+		},
+		{
+			name: "Predictive sales & demand forecasting",
+			tiers: {
+				Starter: false,
+				Growth: true,
+				Enterprise: true
+			}
+		},
+		{
+			name: "Personalized upselling & MacroMatch",
+			tiers: {
+				Starter: false,
+				Growth: true,
+				Enterprise: true
+			}
+		},
+		{
+			name: "Recipe and inventory cost management",
+			tiers: {
+				Starter: "Basic",
+				Growth: "Advanced",
+				Enterprise: "Custom"
+			}
+		},
+		{
+			name: "Automatic allergen/nutrition tracking",
+			tiers: {
+				Starter: true,
+				Growth: true,
+				Enterprise: true
+			}
+		},
+		{
+			name: "Analytics & KPI dashboards",
+			tiers: {
+				Starter: "Core",
+				Growth: "Advanced",
+				Enterprise: "Full"
+			}
+		},
+		{
+			name: "API & system integrations",
+			tiers: {
+				Starter: false,
+				Growth: "Standard",
+				Enterprise: "Custom"
+			}
+		},
+		{
+			name: "Support responsiveness",
+			tiers: {
+				Starter: "Remote/Standard",
+				Growth: "Priority",
+				Enterprise: "Dedicated/on-site"
+			}
+		},
+		{
+			name: "Dedicated success manager",
+			tiers: {
+				Starter: false,
+				Growth: false,
+				Enterprise: true
+			}
+		},
+		{
+			name: "SLA (Service Level Agreement)",
+			tiers: {
+				Starter: false,
+				Growth: false,
+				Enterprise: "99.9% uptime"
+			}
+		}
 		],
 		tiers = [
-			{
-				name: "Starter",
-				monthlyPrice: 9.99,
-				yearlyPrice: 7.99, // 20% savings
-				description: "Perfect for individuals and small projects",
-				features: [
-					"Up to 5 projects",
-					"Basic analytics",
-					"24-hour support response time",
-					"1GB storage"
-				],
-				cta: {
-					label: "Get started",
-					href: "/signup?plan=starter"
-				}
-			},
-			{
-				name: "Pro",
-				monthlyPrice: 29.99,
-				yearlyPrice: 23.99, // 20% savings
-				description: "For growing teams and businesses",
-				features: [
-					"Unlimited projects",
-					"Advanced analytics",
-					"4-hour support response time",
-					"10GB storage",
-					"Custom domains",
-					"Team collaboration tools"
-				],
-				cta: {
-					label: "Get started",
-					href: "/signup?plan=pro"
-				},
-				highlight: true
-			},
-			{
-				name: "Enterprise",
-				monthlyPrice: null,
-				yearlyPrice: null,
-				description: "For large organizations with specific needs",
-				features: [
-					"Everything in Pro",
-					"Dedicated account manager",
-					"1-hour support response time",
-					"Unlimited storage",
-					"Advanced security features",
-					"Custom integrations",
-					"99.9% uptime SLA"
-				],
-				cta: {
-					label: "Contact sales",
-					href: "/contact"
-				}
+		{
+			name: "Starter",
+			monthlyPrice: 499,
+			yearlyPrice: 449, // Savings for annual
+			description: "For single-location operators launching automation",
+			features: [
+				"1 FUSICON bowl assembly unit",
+				"MOSAIC core features",
+				"AI-powered shift & labor co-pilot",
+				"Automatic allergen and nutrition tracking",
+				"Recipe & inventory management (basic)",
+				"Standard onboarding & remote support"
+			],
+			cta: {
+				label: "Request demo",
+				href: "/contact?plan=starter"
 			}
-		]
+		},
+		{
+			name: "Growth",
+			monthlyPrice: 1499,
+			yearlyPrice: 1349, // Savings for annual
+			description: "For chains and regional operators scaling with automation",
+			features: [
+				"Up to 3 FUSICON units",
+				"MOSAIC multi-location access",
+				"Predictive sales & labor forecasting",
+				"Personalized upselling with MacroMatch",
+				"Revenue analysis & KPI dashboards (advanced)",
+				"Recipe & inventory management (advanced)",
+				"API & system integrations (standard)",
+				"Priority onboarding & support"
+			],
+			highlight: true,
+			cta: {
+				label: "Contact sales",
+				href: "/contact?plan=growth"
+			}
+		},
+		{
+			name: "Enterprise",
+			monthlyPrice: null,
+			yearlyPrice: null,
+			description: "For national brands and complex multi-site operators",
+			features: [
+				"Multi-unit/full-site FUSICON automation",
+				"Customizable MOSAIC dashboards & workflows",
+				"KAIKAKU Intelligence across all modules",
+				"MacroMatch personalization at scale",
+				"Real-time EBITDA bridge/forecasting",
+				"Recipe cost decomposer (custom)",
+				"API & system integrations (custom)",
+				"Dedicated success manager & on-site training",
+				"AI innovation partnership",
+				"99.9% uptime SLA & advanced support SLAs"
+			],
+			cta: {
+				label: "Contact sales",
+				href: "/contact?plan=enterprise"
+			}
+		}
+	],
 	}: {
 		title?: string;
 		subtitle?: string;

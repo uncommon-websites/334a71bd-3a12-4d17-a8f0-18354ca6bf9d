@@ -23,22 +23,22 @@
 		"bg-primary-50 text-primary-600 dark:bg-primary-950 dark:text-primary-400 flex items-center justify-center rounded-full";
 
 	const benefits = [
-		{
-			title: "Flexible Work",
-			description: "Remote-first with flexible hours that respect work-life balance.",
-			icon: IconBriefcase
-		},
-		{
-			title: "Growth Opportunities",
-			description: "Continuous learning with mentorship and education stipends.",
-			icon: IconUsers
-		},
-		{
-			title: "Comprehensive Benefits",
-			description: "Health coverage, retirement plans, and generous paid time off.",
-			icon: IconHeart
-		}
-	];
+	{
+		title: "Early builder",
+		description: "Shape the future of robotics and AI in restaurants as part of our founding team. Your work directly affects real-world customers and operations.",
+		icon: IconBriefcase
+	},
+	{
+		title: "Extreme ownership",
+		description: "Take direct responsibility for your projects with support from top engineers and direct feedback from leadership. Radically transparent and meritocratic environment.",
+		icon: IconUsers
+	},
+	{
+		title: "Next-level growth",
+		description: "Accelerate your learning building across hardware, software, and operations. Stock options, top-tier benefits, and the chance to solve the QSR industry's hardest problems.",
+		icon: IconHeart
+	}
+];
 
 	const openings: JobOpening[] = [
 		// Engineering
@@ -121,79 +121,80 @@
 	];
 
 	const employeeTestimonials = [
-		{
-			name: "Michael Chen",
-			position: "Senior Developer",
-			company: "Engineering Team",
-			quote:
-				"Working here has given me the opportunity to tackle challenging problems while maintaining a healthy work-life balance. The team culture is supportive and collaborative.",
-			image:
-				"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Priya Sharma",
-			position: "Product Designer",
-			company: "Design Team",
-			quote:
-				"The creative freedom and opportunity to influence product decisions makes this the best place I've ever worked. I'm constantly learning and growing.",
-			image:
-				"https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Marcus Johnson",
-			position: "Marketing Lead",
-			company: "Marketing Team",
-			quote:
-				"I joined three years ago and have grown tremendously. The leadership truly invests in your development and the work environment is both challenging and supportive.",
-			image:
-				"https://images.unsplash.com/photo-1531384441138-2736e62e0919?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		}
-	];
+  {
+    name: "Lina Zhang",
+    position: "Junior Robotics Engineer",
+    company: "Engineering Team",
+    quote:
+      "From day one, my teammates and mentors have pushed me to learn by doing. There’s no ego—just lots of curiosity and teamwork. Building next-gen robotics, I feel included, supported, and constantly challenged. It’s inspiring to see your ideas come to life so quickly.",
+    image: "/generated/image-an-asian-woman-engineer-in-a-contemporar.webp"
+  },
+  {
+    name: "Daryl Thompson",
+    position: "Operations Manager",
+    company: "Operations Team",
+    quote:
+      "At KAIKAKU, it’s not just about automation—it’s about creating impact. I joined as a supervisor and worked my way up. Leadership here invests in you, listens to every voice, and champions diversity. I feel valued every day, and my growth has been incredible.",
+    image: "/generated/image-a-black-man-working-as-an-operations-man.webp"
+  },
+  {
+    name: "Taylor Brooks",
+    position: "Product Designer",
+    company: "Product Team",
+    quote:
+      "This is the most open and creative environment I’ve ever worked in. I can shape real products that blend AI, robotics, and design—alongside people who care deeply about inclusion and learning. No two days are the same, and I’ve grown so much as a designer and as a person.",
+    image: "/generated/image-a-white-nonbinary-product-designer-in-a-.webp"
+  }
+];
 
 	const processSteps = [
-		{
-			step: 1,
-			title: "Apply",
-			description:
-				"Submit your application through our careers portal with your resume and portfolio."
-		},
-		{
-			step: 2,
-			title: "Interview",
-			description: "Meet with our team to discuss your experience, skills, and career aspirations."
-		},
-		{
-			step: 3,
-			title: "Welcome aboard",
-			description: "Join our team and start your journey building the future with us."
-		}
-	];
+	{
+		step: 1,
+		title: "Apply",
+		description: "Send us your CV or portfolio and tell us briefly why you want to help build the future of restaurants. Everyone gets a direct response."
+	},
+	{
+		step: 2,
+		title: "Team interview",
+		description: "Meet our founders and technical leads for an in-depth discussion about your experience, values, and problem-solving skills."
+	},
+	{
+		step: 3,
+		title: "Paid challenge",
+		description: "Take on a short, real-world project or technical challenge relevant to the role. We pay you for your time and give actionable feedback."
+	},
+	{
+		step: 4,
+		title: "Offer & onboarding",
+		description: "If we're a mutual fit, you'll receive your offer quickly and we'll get you set up for a fast, impactful start." 
+	}
+];
 
 	const values = [
-		{
-			icon: IconHeart,
-			title: "Passion",
-			description: "We're driven by a shared passion for innovation and excellence."
-		},
-		{
-			icon: IconUsers,
-			title: "Collaboration",
-			description: "We believe in teamwork and collaboration to achieve great things."
-		},
-		{
-			icon: IconGlobe,
-			title: "Global Impact",
-			description: "We're committed to making a positive impact on the world."
-		}
-	];
+	{
+		icon: IconHeart,
+		title: "First-principles mindset",
+		description: "We solve tough problems from the ground up and never follow the industry playbook by default."
+	},
+	{
+		icon: IconUsers,
+		title: "Radical ownership",
+		description: "Everyone is responsible for outcomes. We win together and push each other to move fast and iterate forward."
+	},
+	{
+		icon: IconGlobe,
+		title: "No egos, just impact",
+		description: "We hire for curiosity, learn from every background, give and get feedback often, and drive progress over politics."
+	}
+];
 </script>
 
 <!-- Hero Section -->
 
 <SecondaryHero
-	title="Join our team of innovators"
-	subtitle="We're looking for passionate people to help us build the future of digital experiences. Discover your next opportunity with us."
-	imageSrc="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+	title="Build with AI. Serve the future."
+	subtitle="Join a mission-driven team using robotics and intelligence to transform how the world eats—together."
+	imageSrc="/generated/image-a-diverse-group-of-young-professionals-i.webp"
 />
 
 <!-- Why Join Us Section -->

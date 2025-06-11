@@ -15,35 +15,42 @@
 <Pricing />
 
 <Testimonials
-	testimonials={[
-		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
-			quote:
-				"This solution transformed our workflow and increased productivity by 35% in just two months.",
-			image:
-				"https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
-			quote:
-				"The implementation was seamless and the support team was exceptional throughout the process.",
-			image:
-				"https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
-			quote:
-				"We've tried multiple solutions, but this is the only one that perfectly addressed all our requirements.",
-			image:
-				"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&estimonial-3.jpg"
-		}
-	]}
+  testimonials={[
+    {
+      name: "A.J. Wong",
+      position: "COO",
+      company: "Bowlhaus",
+      quote:
+        "FUSICON cut our assembly time in half—and we haven’t had to hire in months.",
+      image: "/generated/image-a-professional-asian-male-restaurant-coo.webp"
+    },
+    {
+      name: "Lucia Navarro",
+      position: "General Manager",
+      company: "Dashi & Go",
+      quote:
+        "MOSAIC gave us real-time recipe costing and shift planning on one screen. It’s like magic for ops.",
+      image: "/generated/image-a-confident-hispanic-female-restaurant-g.webp"
+    },
+    {
+      name: "Omar Sayeed",
+      position: "Chief Digital Officer",
+      company: "Lana's Wraps",
+      quote:
+        "With KAIKAKU Intelligence, we launched personalized meals based on customers’ nutrition goals and saw a 21% increase in repeat orders.",
+      image: "/generated/image-an-energetic-middle-eastern-male-restaur.webp"
+    }
+  ]}
 />
 
-<CallToAction />
+<CallToAction
+  title="Ready for a restaurant that runs itself?"
+  subtitle="See how KAIKAKU can transform your operation."
+  description="Book a demo to experience robotics, AI, and intelligent software working together. Lower labor costs, faster service, and happier guests—finally, a restaurant system that keeps you in control."
+  imageSrc="/generated/image-a-cheerful-restaurant-owner-standing-in-.webp"
+  callsToAction={[
+    { href: '/demo', label: 'Book a demo', variant: 'primary' },
+    { href: '/contact', label: 'Talk to sales', variant: 'secondary' }
+  ]}
+/>
+
