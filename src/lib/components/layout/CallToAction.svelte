@@ -50,11 +50,14 @@
 
 	// Props
 	const {
-		title = "Get started today",
-		subtitle = "Join now",
-		description = "Ready to experience the difference? Join our community of satisfied customers and see how our solution can transform your workflow. ",
+		title = "Ready to help build the future of restaurants?",
+		subtitle = "Join a team that moves fast and ships real change",
+		description = "At KAIKAKU, your work has immediate, tangible impact—from code and robotics to real kitchens serving real guests. If you’re an ambitious builder who thrives on teamwork, curiosity, and modern tools, we want to hear from you.",
 		imageSrc = "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80",
-		callsToAction = [cta],
+		callsToAction = [
+			{ href: "/careers", label: "See open roles", variant: "primary" },
+			{ href: "mailto:careers@kaikaku.com", label: "Start a conversation", variant: "secondary" }
+		],
 		...rest
 	}: {
 		title?: string;

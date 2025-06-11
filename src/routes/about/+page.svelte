@@ -46,57 +46,30 @@
 
 <!-- StakeholderGrid Section -->
 <StakeholderGrid
-	stakeholderType="team"
-	title="Our team."
-	subtitle="Your partners in innovation."
-	stakeholders={[
-		{
-			name: "Alex Morgan",
-			position: "Founder & CEO",
-			bio: "Started the company with a vision to transform the industry through innovative solutions.",
-			image:
-				"https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Jamie Chen",
-			position: "Chief Design Officer",
-			bio: "Award-winning designer with a passion for creating intuitive and beautiful experiences.",
-			image:
-				"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=776&q=80"
-		},
-		{
-			name: "Taylor Wright",
-			position: "Head of Engineering",
-			bio: "Technology enthusiast focused on building scalable systems that make a difference.",
-			image:
-				"https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
-		}
-	]}
+  stakeholderType="team"
+  title="Our founder."
+  subtitle="Building the future of restaurants from London."
+  stakeholders={[
+    {
+      name: "Josef Chen",
+      position: "Founder & CEO",
+      bio: "Josef Chen is the founder and CEO of KAIKAKU, where he leads product and company vision for the operating system modernizing restaurants through robotics and AI. As a relentless builder and systems thinker, Josef is committed to solving the toughest operational challenges in food service while championing exceptional guest experiences. With deep roots in both technology and hospitality, he is rewriting how restaurants run—faster, smarter, and with limitless personalization.",
+      image: "/generated/image-a-professional-headshot-of-an-asian-man-.webp"
+    }
+  ]}
 />
 
-<StakeholderGrid
-	stakeholderType="investor"
-	title="Backed by the best."
-	subtitle="Point Nine, TSIC and others"
-	stakeholders={[
-		{
-			name: "Point Nine Capital",
-			image: "https://cdn.brandfetch.io/pointnine.com/w/400/h/400/logo?c=1id_elLz2Bd5Ej-dWo7"
-		},
-		{
-			name: "TSIC Ventures",
-			image: "https://cdn.brandfetch.io/tiny.vc/w/400/h/400/logo?c=1a2b3c4d5e"
-		},
-		{
-			name: "Sequoia Capital",
-			image: "https://cdn.brandfetch.io/sequoiacap.com/w/400/h/400/logo"
-		}
-	]}
-/>
+
+
 
 <!-- CTA Section -->
 <CallToAction
-	title="Ready to collaborate?"
-	subtitle="Let's create something amazing"
-	description="Join the companies already leveraging our expertise to transform their digital presence and achieve their business goals."
+	title="Join us and build what's next"
+	subtitle="Help shape the future of food"
+	description="KAIKAKU is hiring bold engineers, operators, and hospitality leaders to reinvent restaurant tech from the ground up. If you’re looking for meaningful ownership, high-impact work, and a chance to build real systems for the real world—we’d like to meet you."
+	imageSrc="/generated/image-a-lively-scene-in-a-contemporary-restaur.webp"
+	callsToAction={[
+    { href: "/careers", label: "Explore open roles", variant: "primary" },
+    { href: "mailto:careers@kaikaku.io", label: "Reach out directly", variant: "secondary" }
+  ]}
 />
